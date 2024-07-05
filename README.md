@@ -13,10 +13,7 @@ Python - Java - html - css
 
 I know, not impressive but I'm working on that!
 
-If you need to reach me for any reason (but specially to give me a job lol) you can find my social media
-right 
-<<there 
-
+If you need to reach me for any reason (but specially to give me a job lol) you can find my social media on the left side of this profile.
 Come and say hi!
 
 ![getting_there](https://github.com/92pablocosta/gifsforgeeks/blob/main/9d2f6243730353.57fad60c77cfd.gif?raw=true)
