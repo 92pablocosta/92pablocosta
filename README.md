@@ -1,5 +1,9 @@
 ## Hey there, I'm Pablo!
 
+I'm a brazilian guy currently studying Internet Systems at UNIESP(Br)
+Here you can find everything that I'm working on atm, from Uni classes and projets to my personal projects (and fun stuff that I find hahah)
+Enjoy your stay!
+
 [![Pablo's GitHub stats](https://github-readme-stats.vercel.app/api?username=92pablocosta)](https://github.com/anuraghazra/github-readme-stats)
 
 <div style="display: inline_block"><br>
