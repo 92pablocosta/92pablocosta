@@ -2,7 +2,7 @@
 
 I'm a brazilian guy currently studying Internet Systems at UNIESP(Br)
 
-Here you can find everything that I'm working on atm, from Uni classes and projets to my personal projects (and fun stuff that I find hahah)
+Here you can find everything that I'm working on atm, from Uni classes and projects to my personal projects (and fun stuff that I find hahah)
 
 Enjoy your stay!
 
