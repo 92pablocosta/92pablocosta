@@ -6,7 +6,7 @@ Here you can find everything that I'm working on atm, from Uni classes and proje
 
 Enjoy your stay!
 
-[![Pablo's GitHub stats](https://github-readme-stats.vercel.app/api?username=92pablocosta)](https://github.com/anuraghazra/github-readme-stats)
+[![Pablo's GitHub stats](https://github-readme-stats.vercel.app/api?username=92pablocosta)](https://github.com/92pablocosta/github-readme-stats)
 
 <div style="display: inline_block"><br>
   <img align="center" alt="Pablo-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
