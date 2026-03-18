@@ -6,9 +6,9 @@ Backend Developer | Java & Spring Boot | AI Automation
 
 ## About Me
 
-I'm a Brazilian developer focused on building scalable backend systems and AI-powered solutions.
+I'm a Brazilian developer focused on building scalable backend systems and AI-powered solutions, also can speak English fluently (Happy to do an interview).
 
-Currently pursuing a degree in Internet Systems at UNIESP, while developing real-world projects involving APIs, automation, and intelligent systems.
+Currently about to graduate in Internet Systems B. course at UNIESP, while developing real-world projects involving APIs, automation, and intelligent systems.
 
 I combine backend engineering with practical AI applications to create solutions that improve processes, reduce manual work, and generate real business value.
 
