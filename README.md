@@ -1,84 +1,91 @@
 # Pablo Costa
+### AI Automation Engineer · Backend Developer · Remote-Ready
 
-Backend Developer | Java & Spring Boot | AI Automation
-
----
-
-## About Me
-
-I'm a Brazilian developer focused on building scalable backend systems and AI-powered solutions, also can speak English fluently (Happy to do an interview).
-
-Currently about to graduate in Internet Systems B. course at UNIESP, while developing real-world projects involving APIs, automation, and intelligent systems.
-
-I combine backend engineering with practical AI applications to create solutions that improve processes, reduce manual work, and generate real business value.
-
-My goal:  
-→ Work remotely on impactful backend systems and AI-driven products.
+Brazilian developer fluent in English, building AI-powered automation systems for real businesses.
+B.Tech in Internet Systems @ UNIESP — graduating July 2026.
 
 ---
 
-## What I Can Do
+## What I Build
 
-- Build REST APIs using Java and Spring Boot  
-- Design backend architectures and database models (PostgreSQL)  
-- Integrate AI into real applications (automation, chatbots, workflows)  
-- Develop automation systems (WhatsApp bots, business workflows)  
-- Work with modern tools and continuously learn fast  
+- **AI WhatsApp assistants** — end-to-end, running in production for real clients
+- **REST APIs** — Java/Spring Boot, clean architecture, PostgreSQL
+- **Automation workflows** — n8n, LLM integrations, business process automation
+- **LLM-powered backends** — OpenAI API, prompt engineering, agent workflows
 
 ---
 
 ## Tech Stack
 
-### Backend & Core
+### Backend & Infrastructure
 <div style="display: inline_block">
   <img align="center" alt="Java" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg">
   <img align="center" alt="Spring" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg">
+  <img align="center" alt="Python" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">
   <img align="center" alt="PostgreSQL" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg">
+  <img align="center" alt="Docker" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg">
 </div>
 
 ### AI & Automation
-- AI-powered chatbots (WhatsApp automation)  
-- Prompt engineering and LLM usage  
-- Workflow automation for businesses  
-- Integration of AI into real-world systems  
+<div style="display: inline_block">
+  <img align="center" alt="OpenAI" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/openai/openai-original.svg">
+  <img align="center" alt="Supabase" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/supabase/supabase-original.svg">
+</div>
+
+`n8n` `Evolution API` `Meta Cloud API` `Prompt Engineering` `LLM Integration`
 
 ### Frontend (support)
 <div style="display: inline_block">
   <img align="center" alt="HTML" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
   <img align="center" alt="CSS" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
-  <img align="center" alt="JavaScript" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
+  <img align="center" alt="JavaScript" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg">
 </div>
 
 ---
 
 ## Featured Projects
 
-### AI WhatsApp Automation (in progress)
-Multi-client automation system using AI to handle customer service and business workflows.
+### 🦷 Dental Studio — AI WhatsApp Assistant (Production)
+> AI-powered receptionist running in production for a real dental clinic.
 
-### Pix do Milhão (Spring Boot)
-Backend API simulating financial transactions with focus on business logic and system structure.
+- Handles appointment scheduling, FAQs, and patient triage via WhatsApp
+- Built with **n8n**, **OpenAI GPT-4o-mini**, **Meta Cloud API**, **Evolution API**
+- Persistent conversation memory with **Supabase** + **PostgreSQL**
+- Fully containerized with **Docker**, self-hosted infrastructure
 
-### Event Manager (Java)
-Structured backend project applying object-oriented programming and system organization.
+---
 
-### PaperGO (in progress)
-Marketplace platform for document delivery services.
+### 💳 Pix do Milhão — Financial Transactions API
+> Backend API simulating a Pix-style payment system.
+
+- Built with **Java** and **Spring Boot**
+- Focus on business logic, transaction validation, and system structure
+- RESTful architecture with PostgreSQL
+
+---
+
+### 📅 Event Manager — Backend API
+> Structured backend applying OOP principles and clean architecture.
+
+- Built with **Java**
+- Domain modeling, entity relationships, CRUD operations
 
 ---
 
 ## GitHub Stats
 
-![Pablo's GitHub stats](https://github-readme-stats.vercel.app/api?username=92pablocosta&show_icons=true&theme=dark)
+<div>
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=92pablocosta&show_icons=true&theme=dark&hide_border=true" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=92pablocosta&layout=compact&theme=dark&hide_border=true" />
+</div>
 
 ---
 
-## Current Focus
+## Currently Building
 
-- Improving backend architecture skills  
-- Deepening knowledge in Spring Boot ecosystem  
-- Expanding AI automation projects  
-- Preparing for international remote opportunities  
+- Production AI automation systems for real businesses
+- RAG pipelines and LangChain agent workflows
+- Expanding portfolio with FastAPI + Python backend projects
 
 ---
 
@@ -87,6 +94,6 @@ Marketplace platform for document delivery services.
 <a href="mailto:92pablocosta@gmail.com">
   <img src="https://img.shields.io/badge/Email-333?style=for-the-badge&logo=gmail&logoColor=white">
 </a>
-<a href="https://www.linkedin.com/in/92pablocosta/">
+<a href="https://www.linkedin.com/in/pablocosta-dev/">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
 </a>
