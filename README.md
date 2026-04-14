@@ -4,6 +4,13 @@
 Brazilian developer fluent in English, building AI-powered automation systems for real businesses.
 B.Tech in Internet Systems @ UNIESP — graduating July 2026.
 
+<a href="mailto:92pablocosta@gmail.com">
+  <img src="https://img.shields.io/badge/Email-333?style=for-the-badge&logo=gmail&logoColor=white">
+</a>
+<a href="https://www.linkedin.com/in/pablocosta-dev/">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
+</a>
+
 ---
 
 ## What I Build
@@ -24,15 +31,15 @@ B.Tech in Internet Systems @ UNIESP — graduating July 2026.
   <img align="center" alt="Python" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">
   <img align="center" alt="PostgreSQL" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg">
   <img align="center" alt="Docker" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg">
-</div>
-
-### AI & Automation
-<div style="display: inline_block">
-  <img align="center" alt="OpenAI" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/openai/openai-original.svg">
   <img align="center" alt="Supabase" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/supabase/supabase-original.svg">
 </div>
 
-`n8n` `Evolution API` `Meta Cloud API` `Prompt Engineering` `LLM Integration`
+### AI & Automation
+
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat&logo=n8n&logoColor=white)
+![Meta Cloud API](https://img.shields.io/badge/Meta_Cloud_API-0866FF?style=flat&logo=meta&logoColor=white)
+![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-gray?style=flat)
 
 ### Frontend (support)
 <div style="display: inline_block">
@@ -75,8 +82,8 @@ B.Tech in Internet Systems @ UNIESP — graduating July 2026.
 ## GitHub Stats
 
 <div>
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=92pablocosta&show_icons=true&theme=dark&hide_border=true" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=92pablocosta&layout=compact&theme=dark&hide_border=true" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=92pablocosta&theme=github_dark" height="160" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=92pablocosta&theme=github_dark" height="160" />
 </div>
 
 ---
