@@ -32,12 +32,12 @@ I build **LLM-powered systems that run in production for real, paying businesses
 
 ### Backend & Infrastructure
 <div>
-  <img align="center" alt="Java" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg">
-  <img align="center" alt="Spring" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg">
   <img align="center" alt="Python" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">
   <img align="center" alt="FastAPI" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg">
   <img align="center" alt="PostgreSQL" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg">
   <img align="center" alt="Docker" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg">
+  <img align="center" alt="Linux" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg">
+  <img align="center" alt="Traefik" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/traefikproxy/traefikproxy-original.svg">
 </div>
 
 <br>
@@ -46,6 +46,8 @@ I build **LLM-powered systems that run in production for real, paying businesses
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
 ![Anthropic Claude](https://img.shields.io/badge/Anthropic_Claude-D97757?style=flat&logo=anthropic&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat&logo=googlegemini&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq-F55036?style=flat&logo=groq&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama_(local_LLMs)-000000?style=flat&logo=ollama&logoColor=white)
 ![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat&logo=pydantic&logoColor=white)
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat&logo=n8n&logoColor=white)
 ![Meta Cloud API](https://img.shields.io/badge/Meta_Cloud_API-0866FF?style=flat&logo=meta&logoColor=white)
@@ -71,11 +73,11 @@ I build **LLM-powered systems that run in production for real, paying businesses
 - ‹fill: handles ~N conversations/day · resolves Z% without human handoff · p95 latency reduced from Xs → Ys›
 
 ### 🤖 Customer Support AI — Multi-Tenant LLM Backend
-> Backend that orchestrates AI-powered support chat with full tenant isolation.
+> Production-grade backend that orchestrates LLM-powered support chat with full per-tenant isolation.
 
-- Built with **Java 21**, **Spring Boot 3**, **OpenAI API**, **PostgreSQL/Flyway**, **Docker**
-- Conversation memory persisted per tenant · **token usage + latency tracking** per request
-- Complete multi-tenant isolation, Spring Cache, RESTful architecture
+- **LLM orchestration** with persistent per-tenant conversation memory and **token-usage + latency tracking** on every request
+- **Multi-tenant isolation** end-to-end, response caching, clean RESTful architecture
+- Implemented in **Java 21 / Spring Boot 3** · **OpenAI API** · **PostgreSQL/Flyway** · **Docker**
 
 ### 🌏 VishPath — AI Immigration SaaS *(deployed)*
 > Multilingual platform guiding people through Australian immigration pathways, powered by an LLM advisor.
