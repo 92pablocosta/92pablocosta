@@ -1,4 +1,4 @@
-# Hi, I'm Pablo Costa
+# Hi, I'm Pablo Costa 👋
 
 ### AI Engineer (LLM Applications) · Backend Developer · Remote-Ready
 
@@ -24,6 +24,7 @@ I build **LLM-powered systems that run in production for real, paying businesses
 - **LLM-integrated backends** — conversation memory, token/cost tracking, latency optimization, multi-tenant isolation
 - **Agent & tool-calling workflows** — structured outputs (Pydantic), prompt engineering, persistent state
 - **REST APIs** — Java/Spring Boot and Python/FastAPI, clean architecture, PostgreSQL, Docker
+- **AI-native engineering workflow** — I design systems that *drive* coding agents, not just use them: built [`saas-builder`](https://github.com/92pablocosta/saas-builder), a multi-phase framework that orchestrates Claude Code via specialized `SKILL.md` files and persisted project state
 
 ---
 
@@ -43,6 +44,7 @@ I build **LLM-powered systems that run in production for real, paying businesses
 
 ### LLM & AI Engineering
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
+![Anthropic Claude](https://img.shields.io/badge/Anthropic_Claude-D97757?style=flat&logo=anthropic&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat&logo=googlegemini&logoColor=white)
 ![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat&logo=pydantic&logoColor=white)
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat&logo=n8n&logoColor=white)
