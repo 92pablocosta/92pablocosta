@@ -52,6 +52,7 @@ I build **LLM-powered systems that run in production for real, paying businesses
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat&logo=n8n&logoColor=white)
 ![Meta Cloud API](https://img.shields.io/badge/Meta_Cloud_API-0866FF?style=flat&logo=meta&logoColor=white)
 ![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-gray?style=flat)
+![Model Evaluation](https://img.shields.io/badge/Model_Evaluation-2F855A?style=flat)
 
 ### Frontend (support)
 <div>
