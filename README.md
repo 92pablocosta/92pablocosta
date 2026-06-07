@@ -1,13 +1,13 @@
 # Hi, I'm Pablo Costa 👋
 
-### AI Automation Engineer · Backend Developer · Remote-Ready
+### AI Engineer (LLM Applications) · Backend Developer · Remote-Ready
 
-Brazilian developer with **4 years living and working in Australia** — fluent English, cross-cultural team experience, and a bias for shipping real things.
+Brazilian engineer with **4 years living and working in Australia** — fluent English, cross-cultural team experience, and a bias for shipping real things.
 
-I build AI-powered systems that run in production for real businesses: WhatsApp bots, LLM-integrated backends, and automation workflows that replace manual work with intelligent pipelines.
+I build **LLM-powered systems that run in production for real, paying businesses** — conversational assistants, AI-integrated backends, and the infrastructure that keeps them reliable, fast, and cheap to run.
 
 **B.Tech in Internet Systems @ UNIESP — graduating July 2026**
-**→ Open to remote internships and junior roles (worldwide)**
+**→ Open to remote AI Engineer / Backend roles (junior–mid) and freelance projects — worldwide**
 
 <a href="mailto:92pablocosta@gmail.com">
   <img src="https://img.shields.io/badge/Email-333?style=for-the-badge&logo=gmail&logoColor=white">
@@ -20,114 +20,90 @@ I build AI-powered systems that run in production for real businesses: WhatsApp 
 
 ## What I Build
 
-- **AI WhatsApp assistants** — end-to-end, live in production for real clients, handling real patient interactions daily
-- **LLM-powered backends** — OpenAI API, prompt engineering, agent workflows with persistent memory
-- **Automation pipelines** — n8n, business process automation, webhook orchestration
-- **REST APIs** — Java/Spring Boot and Python/FastAPI, clean architecture, PostgreSQL
+- **Production LLM assistants** — live for real clients, handling real customer interactions daily, not demos
+- **LLM-integrated backends** — conversation memory, token/cost tracking, latency optimization, multi-tenant isolation
+- **Agent & tool-calling workflows** — structured outputs (Pydantic), prompt engineering, persistent state
+- **REST APIs** — Java/Spring Boot and Python/FastAPI, clean architecture, PostgreSQL, Docker
 
 ---
 
 ## Tech Stack
 
 ### Backend & Infrastructure
-
 <div>
   <img align="center" alt="Java" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg">
   <img align="center" alt="Spring" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg">
   <img align="center" alt="Python" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">
+  <img align="center" alt="FastAPI" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg">
   <img align="center" alt="PostgreSQL" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg">
   <img align="center" alt="Docker" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg">
-  <img align="center" alt="Supabase" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/supabase/supabase-original.svg">
 </div>
 
 <br>
 
-### AI & Automation
-
+### LLM & AI Engineering
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
+![Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat&logo=googlegemini&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat&logo=pydantic&logoColor=white)
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat&logo=n8n&logoColor=white)
 ![Meta Cloud API](https://img.shields.io/badge/Meta_Cloud_API-0866FF?style=flat&logo=meta&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
 ![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-gray?style=flat)
 
 ### Frontend (support)
-
 <div>
-  <img align="center" alt="HTML" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
-  <img align="center" alt="CSS" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
-  <img align="center" alt="JavaScript" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg">
+  <img align="center" alt="TypeScript" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg">
   <img align="center" alt="React" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg">
+  <img align="center" alt="Next.js" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg">
 </div>
 
 ---
 
 ## Featured Projects
 
-### 🦷 Dental Studio — AI WhatsApp Assistant *(Production)*
+### 🦷 DentBot — Production LLM Assistant for Dental Clinics
+> AI receptionist running live on WhatsApp for a paying clinic — handles scheduling, FAQs, and patient triage autonomously.
 
-> AI-powered receptionist running live for a dental clinic — handling real patient interactions autonomously.
+- Built with **n8n**, **OpenAI GPT-4o-mini**, **Evolution API** + **Meta Cloud API**, **PostgreSQL/Supabase**, **Docker**
+- **Debounce architecture** batches rapid multi-message inputs without losing context
+- **Redis + PostgreSQL session handling** for persistent conversation memory
+- ‹fill: handles ~N conversations/day · resolves Z% without human handoff · p95 latency reduced from Xs → Ys›
 
-- Manages appointment scheduling, FAQs, and patient triage via WhatsApp — **replacing a human receptionist for routine tasks**
-- Built with **n8n**, **OpenAI GPT-4o-mini**, **Meta Cloud API**, **Evolution API**
-- Persistent conversation memory using **Supabase** + **PostgreSQL**
-- Fully containerized with **Docker**, self-hosted infrastructure
-- Debounce architecture handles rapid multi-message inputs without context loss
+### 🤖 Customer Support AI — Multi-Tenant LLM Backend
+> Backend that orchestrates AI-powered support chat with full tenant isolation.
 
----
+- Built with **Java 21**, **Spring Boot 3**, **OpenAI API**, **PostgreSQL/Flyway**, **Docker**
+- Conversation memory persisted per tenant · **token usage + latency tracking** per request
+- Complete multi-tenant isolation, Spring Cache, RESTful architecture
 
-### 🌏 VishPath — AI Immigration Guidance Platform *(In Progress)*
+### 🌏 VishPath — AI Immigration SaaS *(deployed)*
+> Multilingual platform guiding people through Australian immigration pathways, powered by an LLM advisor.
 
-> AI-powered platform helping people navigate Australian immigration pathways.
+- Built with **Next.js 15**, **TypeScript**, **Google Gemini 2.5 Flash**, **PostgreSQL/Prisma**, **Clerk**, **Stripe**
+- Deployed on **Railway** with **GitHub Actions CI/CD** and a **daily news-ingestion worker**
+- Freemium billing, 5 languages, Sentry observability
 
-- Built with **Python**, **FastAPI**, **LangChain**, **RAG pipelines**
-- Conversational AI agent trained on real immigration documentation
-- SaaS architecture designed for scale
+### 🔎 Northwind Triage Agent — LLM Agent with Structured Outputs
+> Triage agent over the Northwind dataset, built as a technical assessment.
 
----
-
-### 💳 Pix do Milhão — Financial Transactions API
-
-> Backend API simulating a Pix-style payment system.
-
-- Built with **Java** and **Spring Boot**
-- Transaction validation, business rule enforcement, RESTful architecture
-- PostgreSQL with structured schema design
+- Built with **Python**, **Pydantic** (structured/validated outputs), **Groq API**
+- Routing logic with typed schemas and deterministic validation
 
 ---
 
-### 🗺️ Busca Imóveis — Real Estate Map MVP
+## Currently Building Toward Production-Grade AI
 
-> Interactive property search map for João Pessoa real estate market.
+Actively extending my LLM work beyond integration into the patterns that define AI engineering in production:
 
-- Built with **React**, **Vite**, **Leaflet.js**
-- Data-driven from FipeZAP market research
-- Responsive UI with dynamic filtering
-
----
-
-## GitHub Stats
-
-<div>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=92pablocosta&theme=github_dark" height="160" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=92pablocosta&theme=github_dark" height="160" />
-</div>
-<div>
-  <img src="https://streak-stats.demolab.com?user=92pablocosta&theme=github-dark&hide_border=true" height="160" />
-</div>
-
----
-
-## Currently Building
-
-- **VishPath** — AI immigration assistant SaaS for the Australian market
-- **RAG pipelines** — document ingestion, vector search, LLM-grounded responses
-- **FastAPI + Python** backends — expanding beyond Spring Boot into the Python AI ecosystem
+- **RAG pipelines** — document ingestion, hybrid retrieval, grounded responses (target: ship a public, evaluated repo)
+- **Eval harnesses** — measurable quality gates instead of vibes
+- **Observability** — tracing and cost/latency monitoring with **Langfuse**
+- **Agent orchestration** — **LangGraph** for multi-step, stateful workflows
 
 ---
 
 ## Let's Connect
 
-Open to remote internships, junior roles, and freelance AI automation projects — worldwide.
+Open to remote AI Engineer / Backend roles and freelance LLM projects — worldwide.
 
 <a href="mailto:92pablocosta@gmail.com">
   <img src="https://img.shields.io/badge/Email-333?style=for-the-badge&logo=gmail&logoColor=white">
