@@ -1,4 +1,4 @@
-# Hi, I'm Pablo Costa 👋
+# Hi, I'm Pablo Costa
 
 ### AI Engineer (LLM Applications) · Backend Developer · Remote-Ready
 
