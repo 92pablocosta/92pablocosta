@@ -1,4 +1,4 @@
-# Hi, I'm Pablo Costa 👋
+# Hi, I'm Pablo Costa
 
 ### AI Engineer (LLM Applications) · Backend Developer · Remote-Ready
 
@@ -6,7 +6,7 @@ Brazilian engineer with **4 years living and working in Australia** — fluent E
 
 I build **LLM-powered systems that run in production for real, paying businesses** — conversational assistants, AI-integrated backends, and the infrastructure that keeps them reliable, fast, and cheap to run.
 
-**B.Tech in Internet Systems @ UNIESP — graduating July 2026**
+**B.Tech in Internet Systems @ UNIESP — graduated July 2026**
 **→ Open to remote AI Engineer / Backend roles (junior–mid) and freelance projects — worldwide**
 
 <a href="mailto:92pablocosta@gmail.com">
@@ -23,7 +23,8 @@ I build **LLM-powered systems that run in production for real, paying businesses
 - **Production LLM assistants** — live for real clients, handling real customer interactions daily, not demos
 - **LLM-integrated backends** — conversation memory, token/cost tracking, latency optimization, multi-tenant isolation
 - **Agent & tool-calling workflows** — structured outputs (Pydantic), prompt engineering, persistent state
-- **REST APIs** — Java/Spring Boot and Python/FastAPI, clean architecture, PostgreSQL, Docker
+- **REST APIs** — Python/FastAPI, clean architecture, PostgreSQL, Docker
+- **Standalone automation tools** — Python scripts and scrapers packaged into distributable executables for non-technical end users
 - **AI-native engineering workflow** — I design systems that *drive* coding agents, not just use them: built [`saas-builder`](https://github.com/92pablocosta/saas-builder), a multi-phase framework that orchestrates Claude Code via specialized `SKILL.md` files and persisted project state
 
 ---
@@ -54,15 +55,6 @@ I build **LLM-powered systems that run in production for real, paying businesses
 ![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-gray?style=flat)
 ![Model Evaluation](https://img.shields.io/badge/Model_Evaluation-2F855A?style=flat)
 
-### Frontend (support)
-<div>
-  <img align="center" alt="TypeScript" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg">
-  <img align="center" alt="React" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg">
-  <img align="center" alt="Next.js" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg">
-</div>
-
----
-
 ## Featured Projects
 
 ### 🦷 DentBot — Production LLM Assistant for Dental Clinics
@@ -73,25 +65,12 @@ I build **LLM-powered systems that run in production for real, paying businesses
 - **Redis + PostgreSQL session handling** for persistent conversation memory
 - ‹fill: handles ~N conversations/day · resolves Z% without human handoff · p95 latency reduced from Xs → Ys›
 
-### 🤖 Customer Support AI — Multi-Tenant LLM Backend
-> Production-grade backend that orchestrates LLM-powered support chat with full per-tenant isolation.
+### ⚖️ TRT2/PJe Comunica Scraper — Legal Process Automation
+> Freelance delivery for a São Paulo law firm — automates monitoring of court communications on the TRT2/PJe Comunica system.
 
-- **LLM orchestration** with persistent per-tenant conversation memory and **token-usage + latency tracking** on every request
-- **Multi-tenant isolation** end-to-end, response caching, clean RESTful architecture
-- Implemented in **Java 21 / Spring Boot 3** · **OpenAI API** · **PostgreSQL/Flyway** · **Docker**
-
-### 🌏 VishPath — AI Immigration SaaS *(deployed)*
-> Multilingual platform guiding people through Australian immigration pathways, powered by an LLM advisor.
-
-- Built with **Next.js 15**, **TypeScript**, **Google Gemini 2.5 Flash**, **PostgreSQL/Prisma**, **Clerk**, **Stripe**
-- Deployed on **Railway** with **GitHub Actions CI/CD** and a **daily news-ingestion worker**
-- Freemium billing, 5 languages, Sentry observability
-
-### 🔎 Northwind Triage Agent — LLM Agent with Structured Outputs
-> Triage agent over the Northwind dataset, built as a technical assessment.
-
-- Built with **Python**, **Pydantic** (structured/validated outputs), **Groq API**
-- Routing logic with typed schemas and deterministic validation
+- ~2,300 lines of **Python**, 93 automated tests, written and debugged unaided
+- Packaged as a standalone **Windows .exe** via **PyInstaller** for non-technical end users
+- Delivered to and in active use by the client
 
 ---
 
