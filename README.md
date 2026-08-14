@@ -1,13 +1,15 @@
 # Hi, I'm Pablo Costa
 
-### AI Engineer (LLM Applications) · Backend Developer · Remote-Ready
+### Python Backend Developer · AI Automation & LLM Applications
 
-Brazilian engineer with **4 years living and working in Australia** — fluent English, cross-cultural team experience, and a bias for shipping real things.
+Brazilian software developer building **Python backends, automation tools, and LLM-powered applications**.
 
-I build **LLM-powered systems that run in production for real, paying businesses** — conversational assistants, AI-integrated backends, and the infrastructure that keeps them reliable, fast, and cheap to run.
+My current production work includes **DentBot**, a WhatsApp assistant used by a real dental clinic. I am now rebuilding its backend as a public, test-driven Python project based on lessons learned from operating the original system.
 
-**B.Tech in Internet Systems @ UNIESP — graduated July 2026**
-**→ Open to remote AI Engineer / Backend roles (junior–mid) and freelance projects — worldwide**
+I also spent **four years living and working in Australia**, giving me fluent English and practical experience working across cultures.
+
+**Technology degree in Internet Systems — UNIESP, July 2026**
+**Open to remote backend, AI automation, and LLM application roles worldwide.**
 
 <a href="mailto:92pablocosta@gmail.com">
   <img src="https://img.shields.io/badge/Email-333?style=for-the-badge&logo=gmail&logoColor=white">
@@ -20,74 +22,120 @@ I build **LLM-powered systems that run in production for real, paying businesses
 
 ## What I Build
 
-- **Production LLM assistants** — live for real clients, handling real customer interactions daily, not demos
-- **LLM-integrated backends** — conversation memory, token/cost tracking, latency optimization, multi-tenant isolation
-- **Agent & tool-calling workflows** — structured outputs (Pydantic), prompt engineering, persistent state
-- **REST APIs** — Python/FastAPI, clean architecture, PostgreSQL, Docker
-- **Standalone automation tools** — Python scripts and scrapers packaged into distributable executables for non-technical end users
-- **AI-native engineering workflow** — I design systems that *drive* coding agents, not just use them: built [`saas-builder`](https://github.com/92pablocosta/saas-builder), a multi-phase framework that orchestrates Claude Code via specialized `SKILL.md` files and persisted project state
+* **LLM-powered applications** connected to real business workflows
+* **Python backends and REST APIs** with explicit business rules and automated tests
+* **WhatsApp automation** using n8n, Evolution API, Redis, PostgreSQL, and OpenAI
+* **Standalone Python tools** packaged for non-technical users
+* **Self-hosted infrastructure** with Docker, Traefik, monitoring, backups, and operational documentation
+* **Agent-oriented development workflows** with specialized instructions and persistent project state
 
 ---
 
 ## Tech Stack
 
-### Backend & Infrastructure
+### Backend and Testing
+
 <div>
   <img align="center" alt="Python" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">
   <img align="center" alt="FastAPI" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg">
   <img align="center" alt="PostgreSQL" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg">
-  <img align="center" alt="Docker" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg">
-  <img align="center" alt="Linux" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg">
-  <img align="center" alt="Traefik" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/traefikproxy/traefikproxy-original.svg">
+  <img align="center" alt="Redis" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg">
+  <img align="center" alt="Pytest" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytest/pytest-original.svg">
 </div>
 
 <br>
 
-### LLM & AI Engineering
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
-![Anthropic Claude](https://img.shields.io/badge/Anthropic_Claude-D97757?style=flat&logo=anthropic&logoColor=white)
-![Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat&logo=googlegemini&logoColor=white)
-![Groq](https://img.shields.io/badge/Groq-F55036?style=flat&logo=groq&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama_(local_LLMs)-000000?style=flat&logo=ollama&logoColor=white)
-![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat&logo=pydantic&logoColor=white)
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat&logo=n8n&logoColor=white)
-![Meta Cloud API](https://img.shields.io/badge/Meta_Cloud_API-0866FF?style=flat&logo=meta&logoColor=white)
-![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-gray?style=flat)
-![Model Evaluation](https://img.shields.io/badge/Model_Evaluation-2F855A?style=flat)
+### AI and Automation
 
-## Featured Projects
+![OpenAI API](https://img.shields.io/badge/OpenAI_API-412991?style=flat\&logo=openai\&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat\&logo=pydantic\&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat\&logo=n8n\&logoColor=white)
+![Evolution API](https://img.shields.io/badge/Evolution_API-2E8B57?style=flat)
+![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat\&logo=anthropic\&logoColor=white)
 
-### 🦷 DentBot — Production LLM Assistant for Dental Clinics
-> AI receptionist running live on WhatsApp for a paying clinic — handles scheduling, FAQs, and patient triage autonomously.
+### Infrastructure
 
-- Built with **n8n**, **OpenAI GPT-4o-mini**, **Evolution API** + **Meta Cloud API**, **PostgreSQL/Supabase**, **Docker**
-- **Debounce architecture** batches rapid multi-message inputs without losing context
-- **Redis + PostgreSQL session handling** for persistent conversation memory
-- ‹fill: handles ~N conversations/day · resolves Z% without human handoff · p95 latency reduced from Xs → Ys›
-
-### ⚖️ TRT2/PJe Comunica Scraper — Legal Process Automation
-> Freelance delivery for a São Paulo law firm — automates monitoring of court communications on the TRT2/PJe Comunica system.
-
-- ~2,300 lines of **Python**, 93 automated tests, written and debugged unaided
-- Packaged as a standalone **Windows .exe** via **PyInstaller** for non-technical end users
-- Delivered to and in active use by the client
+<div>
+  <img align="center" alt="Docker" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg">
+  <img align="center" alt="Linux" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg">
+  <img align="center" alt="Traefik" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/traefikproxy/traefikproxy-original.svg">
+  <img align="center" alt="Git" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">
+</div>
 
 ---
 
-## Currently Building Toward Production-Grade AI
+## Featured Projects
 
-Actively extending my LLM work beyond integration into the patterns that define AI engineering in production:
+### 🦷 [DentBot](https://dentbot.com.br) — WhatsApp Assistant in Production
 
-- **RAG pipelines** — document ingestion, hybrid retrieval, grounded responses (target: ship a public, evaluated repo)
-- **Eval harnesses** — measurable quality gates instead of vibes
-- **Observability** — tracing and cost/latency monitoring with **Langfuse**
-- **Agent orchestration** — **LangGraph** for multi-step, stateful workflows
+> LLM-powered assistant used by a paying dental clinic to support patient interactions through WhatsApp.
+
+* Supports scheduling requests, frequently asked questions, and initial patient triage
+* Uses **n8n**, **OpenAI**, **Evolution API**, **Redis**, **PostgreSQL/Supabase**, and **Docker**
+* Implements a Redis-based debounce mechanism to combine rapid consecutive messages before processing
+* Maintains conversation state across patient interactions
+* Currently establishing reliable baselines for conversation volume, handoff rate, latency, and operating cost
+
+### 🧠 DentBot Core — Test-Driven Backend Rebuild
+
+> A public, production-oriented rebuild that will eventually replace the current DentBot backend.
+
+* Separates deterministic business rules from LLM behavior and workflow orchestration
+* Currently implements intent classification and explicit priority rules
+* Uses **Python**, **pytest**, and **uv**, with five initial automated tests
+* Designed to expose a **FastAPI** HTTP boundary for integration with n8n
+* Documents implemented behavior separately from planned functionality
+
+*Status: active development — repository link will be added when the first public version is published.*
+
+### ⚖️ TRT2/PJe Comunica Scraper — Legal Process Automation
+
+> Freelance Python application delivered to a São Paulo law firm for monitoring court communications.
+
+* Approximately **2,300 lines of Python**
+* Covered by **93 automated tests**
+* Packaged as a standalone Windows executable with **PyInstaller**
+* Designed for non-technical users
+* Delivered to and used by the client
+
+*Private client project; implementation details are not publicly available.*
+
+### 🖥️ [VPS Public Portfolio](https://github.com/92pablocosta/vps-public-portfolio) — Self-Hosted Infrastructure
+
+> Public documentation of a production-like VPS environment built with security, recoverability, and operational clarity in mind.
+
+* Docker workloads routed through **Traefik** with automatic TLS
+* Restricted network exposure and hardened SSH access
+* Monitoring and alerting with **Uptime Kuma**
+* Off-site encrypted backups with **Restic** and Backblaze B2
+* Real restore procedure validated
+* Operational decisions, limitations, and recovery procedures documented publicly
+
+---
+
+## Current Focus
+
+I am currently turning lessons from the live DentBot implementation into a more maintainable backend:
+
+1. Deterministic and testable business rules
+2. A clear FastAPI integration boundary
+3. Persistent conversation state
+4. Measurable quality, latency, and operating cost
+5. Observability based on actual production requirements
+
+The goal is not to add frameworks for their own sake. It is to make the system easier to test, operate, diagnose, and evolve.
 
 ---
 
 ## Let's Connect
 
-Open to remote AI Engineer / Backend roles and freelance LLM projects — worldwide.
+I am open to remote opportunities involving:
+
+* Python backend development
+* AI automation
+* LLM application engineering
+* API and workflow integrations
+* Freelance automation projects
 
 <a href="mailto:92pablocosta@gmail.com">
   <img src="https://img.shields.io/badge/Email-333?style=for-the-badge&logo=gmail&logoColor=white">
